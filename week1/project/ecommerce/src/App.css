@@ -1,0 +1,99 @@
+.App{
+  padding: 10px;
+}
+
+/* HEADER CSS */
+
+.header {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* CATEGORIES CSS */
+
+.categories {
+  display: flex;
+}
+
+.categories--item {
+  background-color: #efeff0;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 2px;
+  padding: 12px;
+}
+
+.categories--item:hover {
+  background-color: #d6d6d8;
+}
+
+.categories--item-selected {
+  background-color: #bdbdc1;
+}
+
+/*  PRODUCTS CSS */
+.products {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  padding-inline-start: 0;
+}
+
+.products--item {
+  margin: 8px;
+  width: 100%;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.product--image {
+  margin-bottom: auto;
+  margin-top: auto;
+  max-height: 300px;
+  object-fit: contain;
+  width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+.product--title {
+  overflow: hidden;
+  padding-top: 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+/* RESPONSIVE SCREEN CSS */
+
+/* Screens narrower than 599px */
+@media only screen and (max-width:599px) {
+  .products--item {
+    width: calc(100% - 16px);
+}}
+
+/* Screens between 600px and 999px */
+@media only screen and (min-width:600px) and (max-width:999px) {
+  .products--item {
+    width: calc(50% - 16px);
+}
+}
+
+/* Screens wider than 1000px */
+@media only screen and (min-width:1000px) {
+  .products--item {
+    width: calc(33% - 16px);
+}
+}
