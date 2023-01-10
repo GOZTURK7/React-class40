@@ -19,8 +19,6 @@ function App() {
     setSelectedCategory(category);
   };
 
-  console.log(`selectedCategory: ${selectedCategory}`);
-
   return (
     <div className="App">
       <Header />
