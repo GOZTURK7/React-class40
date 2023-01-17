@@ -1,0 +1,150 @@
+.App{
+  padding: 10px;
+}
+
+/* HEADER CSS */
+
+.header {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* CATEGORIES CSS */
+
+.categories {
+  display: flex;
+}
+
+.categories--item {
+  background-color: #efeff0;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 2px;
+  padding: 12px;
+}
+
+.categories--item:hover {
+  background-color: #d6d6d8;
+}
+
+.categories--item-selected {
+  background-color: #bdbdc1;
+}
+
+/*  PRODUCTS CSS */
+.products {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  padding-inline-start: 0;
+}
+
+.products--item {
+  margin: 8px;
+  width: 100%;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.product-image {
+  margin-bottom: auto;
+  margin-top: auto;
+  max-height: 300px;
+  object-fit: contain;
+  width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+.product--title {
+  overflow: hidden;
+  padding-top: 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-link{
+    background-color: transparent;
+}
+
+.product-image--container {
+  position: relative;
+}
+
+
+/* RESPONSIVE SCREEN CSS */
+
+/* Screens narrower than 599px */
+@media only screen and (max-width:599px) {
+  .products--item {
+    width: calc(100% - 16px);
+}}
+
+/* Screens between 600px and 999px */
+@media only screen and (min-width:600px) and (max-width:999px) {
+  .products--item {
+    width: calc(50% - 16px);
+}
+}
+
+/* Screens wider than 1000px */
+@media only screen and (min-width:1000px) {
+  .products--item {
+    width: calc(33% - 16px);
+}
+};
+
+/* PRODUCT DETAILS CSS */
+
+.title-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.title-container h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.product-details--information {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.product-details--image {
+  min-width: 50%;
+}
+
+.product-image--container {
+  position: relative;
+}
+
+.product-image {
+  margin-bottom: auto;
+  margin-top: auto;
+  max-height: 300px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.product-details--description p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
