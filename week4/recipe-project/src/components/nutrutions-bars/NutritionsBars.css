@@ -1,0 +1,22 @@
+.progress{
+    background: var(--color1) !important;
+    margin: 0.1rem 0;
+    display: flex;
+    align-items:center;
+}
+.progress-bar{
+    height:1.5rem;
+    text-align: center;
+    padding:0rem;
+}
+.nutritions-bars{
+    background: var(--color1) !important;
+    width: 100%;
+}
+.title{
+    width: 8rem;
+    font-size: 0.8rem;
+    padding:0;
+    margin:0;
+    text-align: center;
+}

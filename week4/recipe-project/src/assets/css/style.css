@@ -1,0 +1,21 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+
+:root {
+    /* --color1: rgb(242, 2, 2); */
+    --color10:rgb(249,204,72);
+    /* --color2: rgb(104,83,73); */
+    --color3: rgb(207,200,197);
+    /* --color4: rgb(255,255,255); */
+    --color5: rgb(187,189,186);
+    --color6: black;
+    /* --color2'nin opacity'li backgroundu */
+    --color7: rgb(104,83,73, 0.2);
+
+    --color1: rgb(255,255,255);
+    /* --color10: rgb(243,164,64); */
+    --color2: rgb(67,123,41);
+    /* NUTRITIONS BARS COLORS */
+
+  };
+

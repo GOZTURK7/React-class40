@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Underdog&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Oswald:wght@300;400;500&family=Underdog&display=swap');
+
+body {
+    background-color: var(--color1);
+    font-family: Oswald, sans-serif;
+}
+
